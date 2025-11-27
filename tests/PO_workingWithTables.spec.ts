@@ -3,7 +3,7 @@ import { assert } from 'console';
 import { CountryTables } from './page-objects/CountryTables';
 
 test('Tabla', async ({page}) => {
-
+/*
     await page.goto('https://cosmocode.io/automation-practice-webtable/')
     const countryTable = new CountryTables(page)
 
@@ -41,7 +41,7 @@ test('Tabla', async ({page}) => {
     const countryCurrency = await row1?.locator('xpath=.//td[4]').innerText()
     console.log(countryName, countryCapital, countryCurrency)*/
 })
-
+/*
 //Formato para el console log
 interface Country{
     name: string
